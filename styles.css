@@ -1,0 +1,51 @@
+body {
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            background-color: #f8f9fa; /* suave y profesional */
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .team-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #f0f0f0;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #ff6f61;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #ff3b2f;
+        }
+        /* Sección de descripción */
+        #descripcion {
+            min-height: 600px;
+            background: linear-gradient(135deg, #fdf6f0, #e3f2fd); /* suave y profesional */
+            color: #333;
+        }
+        #descripcion p {
+            font-size: 1.2rem;
+        }
+        #descripcion h2 {
+            color: #333;
+        }
+        /* Sección de integrantes suavizada */
+        #integrantes {
+            background-color: #f9f9f9; /* crema muy suave */
+        }
+        .team-card .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+}
